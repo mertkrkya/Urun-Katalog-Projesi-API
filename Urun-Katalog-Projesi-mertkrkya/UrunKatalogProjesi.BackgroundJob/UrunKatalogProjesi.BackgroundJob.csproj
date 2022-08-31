@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.30" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.30" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UrunKatalogProjesi.Core\UrunKatalogProjesi.Core.csproj" />
+    <ProjectReference Include="..\UrunKatalogProjesi.Data\UrunKatalogProjesi.Data.csproj" />
+  </ItemGroup>
+
+</Project>
