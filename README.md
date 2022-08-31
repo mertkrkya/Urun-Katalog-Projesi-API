@@ -1,5 +1,5 @@
 # Mert Karakaya - Bitirme Projesi
-
+Kullanıcıların giriş ve kayıt işlemlerini gerçekleştirdikleri ve ürünlere teklif vererek veya direkt satın aldıkları bir API projesi.
 ## Projede Kullanılan Teknolojiler ve Patternler
 - .NET Core 5.0
 - Fluent Validation
